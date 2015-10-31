@@ -52,16 +52,10 @@
 
   <div class="menu-main-menu-container">
     <ul class="nav">
-      <li <?php if (is_home()) {?> class="current-cat"<?php }?>>
-        <a href="<?php bloginfo('home');?>">Home</a></li>
-      <li class="menu-item"><a href="#">Item 1</a></li>
+      <li <?php if (is_home()) {?> class="current-cat"<?php }?>><a href="<?php bloginfo('home');?>">Home</a></li>
+      <!-- <li class="menu-item"><a href="#">Item 1</a></li> -->
 <?php wp_list_categories('orderby=name&use_desc_for_title=1&title_li=&number=5');?>
-      <li class="menu-item menu-item-has-children"><a href="#">Item 2</a>
-        <ul class="sub-menu">
-          <li class="menu-item"><a href="#">Sub-item 1</a></li>
 
-        </ul>
-      </li>
 
     </ul>
   </div>

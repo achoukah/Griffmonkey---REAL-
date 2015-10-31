@@ -15,6 +15,11 @@
     padding: 0;
     width: 100vw;
   }
+  @media only screen
+  and (max-width: 767px) {
+    padding: 0;
+    width: 100vw;
+  }
 
   .logo {
     width: 14em;
@@ -27,6 +32,13 @@
     @media only screen
     and (min-device-width : 320px)
     and (max-device-width : 480px) {
+      width: 10em;
+      height: 10em;
+      top: .5em;
+      left: .5em;
+    }
+    @media only screen
+    and (max-width: 767px) {
       width: 10em;
       height: 10em;
       top: .5em;
@@ -48,6 +60,10 @@
       and (max-device-width : 480px) {
         background-size: cover;
       }
+      @media only screen
+      and (max-width: 767px) {
+        background-size: cover;
+      }
     }
   }
   h1 {
@@ -64,6 +80,14 @@
     @media only screen
     and (min-device-width : 320px)
     and (max-device-width : 480px) {
+      font-size: 1.3em;
+      margin-top: 1.4em;
+      margin-left: 4em;
+      width: auto;
+      display: inline-block;
+    }
+    @media only screen
+    and (max-width: 767px) {
       font-size: 1.3em;
       margin-top: 1.4em;
       margin-left: 4em;
@@ -222,11 +246,6 @@
             background: $rd-dk;
           }
         }
-        
-        .menu-item + .sub-menu {
-          border: thin solid rebeccapurple;
-
-        }
 
 
 
@@ -267,7 +286,7 @@
         float: right;
         padding-right: 20px;
         font-size: 30px;
-        color: $wh-tr
+        color: $wh-tr;
       }
 
       a {
