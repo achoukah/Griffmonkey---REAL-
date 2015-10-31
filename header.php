@@ -39,23 +39,6 @@
 
     </header>
 
-<!-- OLD NAV MENU  -->
-
-    <input type="checkbox" id="nav-trigger" class="nav-trigger" />
-    <label for="nav-trigger"></label>
-
-
-    <nav class="main-menu" id="menu">
-      <ul>
-        <li <?php if (is_home()) {?> class="current-cat"<?php }?>>
-        <a href="<?php bloginfo('home');?>">Home</a></li>
-
-<?php wp_list_categories('orderby=name&use_desc_for_title=1&title_li=&number=5');?>
-</ul>
-    </nav>
-
-<!-- END OLD NAV MENU  -->
-
 
 
 
@@ -65,7 +48,7 @@
   <span>toggle menu</span>
 </button>
 
-<nav role="navigation">
+<nav role="navigation" id="main-menu">
 
   <div class="menu-main-menu-container">
     <ul class="nav">

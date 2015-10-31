@@ -2,21 +2,23 @@
 //Main footer
 ?>
 
-    <footer class="main-footer">      
+    <footer class="main-footer">
 
-      
+
 
       <ul>
         <li>
-          <form action="<?php echo esc_url( home_url( '/' ) ); ?>" method="get" class="search search-footer">
+          <form action="<?php echo esc_url(home_url('/'));?>" method="get" class="search search-footer">
             <fieldset>
               <label for="search">Search</label>
-              <input type="text" name="s" id="search" value="<?php the_search_query(); ?>" placeholder="Search">
+              <input type="text" name="s" id="search" value="<?php the_search_query();?>" placeholder="Search">
               <input type="submit" name="submit" value="Search">
             </fieldset>
           </form>
         </li>
-        <li>&copy;<?php echo date('Y'); ?> <a href="<?php echo esc_url( home_url( '/' ) ); ?>">Jamie Griffin</a></li>
+        <li>&copy;
+<?php echo date('Y');
+?> <a href="<?php echo esc_url(home_url('/'));?>">Jamie Griffin</a></li>
         <li>Theme design/coding: <a href="http://anwarchoukah.com">Anwar Choukah</a></li>
 
       </ul>
@@ -31,8 +33,8 @@
 
     <script>
       //Use as required
-      //var templateUrl = '<?= get_bloginfo("template_url"); ?>';
+      //var templateUrl = '<?=get_bloginfo("template_url");?>';
     </script>
-    <?php wp_footer(); ?>
-  </body>
-</html>   
+<?php wp_footer();?>
+</body>
+</html>

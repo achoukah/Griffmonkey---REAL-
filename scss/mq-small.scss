@@ -1,52 +1,7 @@
-// GLOBAL 
-
-  body {
-    font-size: 16px;
-    // min-width: 100%;
-    // min-height: 100%;
-    position: relative;
-    top: 0;
-    bottom: 100%;
-    left: 0;
-  }
-  article {
-    width: 100%;
-    flex-direction: column;
-    margin: 0;
-    padding: 0 .5em;
-    z-index: 2;
-  }
-  section {
-    width: 100%;
-
-    .post {
-
-    }
-  }
-
 // HEADER 
   .main-header {
-    padding: 0;
-    width: 100vw;
-
-    .logo {
-      width: 10em;
-      height: 10em;
-      top: .5em;
-      left: .5em;
-    }
-    h1 {
-      font-size: 1.5em;
-      margin-top: 1.4em;
-      margin-left: 5em;
-      width: auto;
-      display: inline-block;
-
-      strong {
-        // display: block;
-        // font-size: .8em;
-      }
-    }
+    
+    
     form {
       width: 100%;
       text-align: right;
@@ -62,78 +17,27 @@
     }
   }
 
-// NAV 
-  .main-menu {
-    // width: 100%;
-    // height: 100%;
-    position: absolute;
-    top: 0;
-    right: 0;
-    // bottom: 0;
-    z-index: 0;
-    // top: 200px;
-    // left: 80vw;
-    // bottom: 0;
-    // z-index: -10;
-    padding: 0;
-    text-align: right;
-
-    ul {
-      li {
-        display: block;
-      }
-    }
-    
-  }
-  .nav-trigger {
-    display: block;
-    position: absolute;
-    clip: rect(0, 0, 0, 0);
-  }
-  label[for="nav-trigger"] {
-    visibility: visible;
-    position: fixed;
-    top: 0;
-    right: -1em;
-    margin: 1em;
-    z-index: 2;
-    width: 24px;
-    height: 24px;
-    cursor: pointer;
-    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' x='0px' y='0px' width='24px' height='24px' viewBox='0 0 24 24' enable-background='new 0 0 24 24' xml:space='preserve' fill='rgba(255,255,255,.8)'><rect width='24' height='3'/><rect y='16' width='24' height='3'/><rect y='8' width='24' height='3'/></svg>");
-    background-size: contain;
-    background-repeat: no-repeat;
-    z-index: 150;
-
-    &:before {
-      content: 'Menu:';
-      display: block;
-      text-align: right;
-      position: relative;
-      right: 60px;
-    }
-  }
-  // Make the Magic Happen
-  .nav-trigger + label, 
-  .nav-trigger + .main-menu {
-    transition: all 0.2s;
-  }
-
-  .nav-trigger:checked + label, 
-  .nav-trigger:checked + .main-menu {
-    right: 20vw;
-  }
-  .nav-trigger ~ .main-menu {
-    // position: relative;
-    right: -20vw;
-    transition: all .2s ease-in-out;
-  }
-  .nav-trigger:checked ~ .main-menu {
-    right: 20vw;
-  }
   
 // ASIDE 
   aside {
     width: 100%;
     margin-top: 1em;
   }
+
+
+// FOOTER 
+ footer {
+  ul {
+
+  }
+  li {
+
+  }
+  .search-footer {
+    width: 100%;
+
+    label {
+      display: none;
+    }
+  }
+ }

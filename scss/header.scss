@@ -9,6 +9,13 @@
   justify-content: space-around;
   flex-flow: row wrap;
 
+  @media only screen
+  and (min-device-width : 320px)
+  and (max-device-width : 480px) {
+    padding: 0;
+    width: 100vw;
+  }
+
   .logo {
     width: 14em;
     height: 14em;
@@ -16,6 +23,15 @@
     top: .8em;
     left: -2.6em;
     min-width: auto;
+
+    @media only screen
+    and (min-device-width : 320px)
+    and (max-device-width : 480px) {
+      width: 10em;
+      height: 10em;
+      top: .5em;
+      left: .5em;
+    }
 
     a {
       display: block;
@@ -27,7 +43,10 @@
       background-position: 60% 0;
       // background-size: contain;
 
-      &:hover {
+      @media only screen
+      and (min-device-width : 320px)
+      and (max-device-width : 480px) {
+        background-size: cover;
       }
     }
   }
@@ -41,6 +60,16 @@
     min-width: auto;
     flex-grow: 2;
     z-index: 140;
+    
+    @media only screen
+    and (min-device-width : 320px)
+    and (max-device-width : 480px) {
+      font-size: 1.3em;
+      margin-top: 1.4em;
+      margin-left: 4em;
+      width: auto;
+      display: inline-block;
+    }
 
     a {
       color: $lt;
@@ -93,7 +122,7 @@
       left: $button-pad;
       right: $button-pad;
       height: $bar-thickness;
-      background: $bk-dk;
+      background: $wh-lt;
       transition: background 0s $button-transistion-duration;
     }
     span::before,
@@ -103,7 +132,7 @@
       left: 0;
       width: 100%;
       height: $bar-thickness;
-      background-color: $bk-dk;
+      background-color: $wh-lt;
       content: "";
       transition-duration: $button-transistion-duration, $button-transistion-duration;
       transition-delay: $button-transistion-duration, 0s;
@@ -156,7 +185,7 @@
     font-style: italic;
     font-weight: 600;
     transition: all .4s ease-in-out;
-    z-index: 2;
+    z-index: 8;
 
 
     a {

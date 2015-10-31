@@ -24,7 +24,7 @@
   @media only screen
   and (min-device-width : 320px)
   and (max-device-width : 480px) {
-    // @import "mq-small";
+    @import "mq-small";
   }
 
 // iPhone (portrait and landscape)
