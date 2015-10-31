@@ -1,0 +1,95 @@
+// BOX-SIZING
+
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+
+  html {
+    box-sizing: border-box;
+  } 
+
+// BODY 
+
+  body {
+    background-color: $dk;
+    color: $lt;
+    font-size: 100%;
+
+    display: flex;
+    min-width: 100vw;
+    min-height: 100vh;
+    flex-direction: column;
+
+    font-family: $bodytext;
+    font-weight: 400;
+    overflow-x: hidden;
+  }
+
+ 
+
+// LINKS 
+
+  a {
+    text-decoration: none;
+    color: $link;
+    transition: all .2s ease-in-out;
+
+    &:hover {
+      color: $link-hover;
+    }
+    &:active {
+      color: $link-active;
+    }
+  }
+
+// HEADERS 
+
+  h1, h2, h3, h4, h5 {
+
+  }
+  h1 {
+    font-size: 3em;
+  }
+  h2 {
+    font-size: 2.6em;
+  }
+  h3 {
+    font-size: 2.2em;
+  }
+  h4 {
+    font-size: 1.8em
+  }
+
+
+// OTHER 
+  .no-jsmsg {
+    display: none;
+  }
+
+// MONOSPACED 
+  code {
+    font-family: $mono;
+    font-size: 1em;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 300;
+    line-height: 26.3999996185303px;
+    padding: .2em;
+    background-color: $bk-tr-6;
+
+  }
+  
+  // 404 
+
+    .error-page {
+      // text-align: center;
+    }
+
+
+// WP ADMINBAR
+
+  #wpadminbar {
+    display: none;
+  }

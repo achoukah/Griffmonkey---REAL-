@@ -1,0 +1,17 @@
+# TEAM
+
+    Blank Theme Developer: Richard Blyth, www.richardblyth.com
+    Styling: Anwar Choukah, http://anwarchoukah.com
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    Foundation 5 Custom
+    Modernizr
+    WordPress
+
+# SITE
+  
+  Last update: Sunday, 2 August, 2015
+  Language: English
+  Doctype: HTML5

@@ -1,0 +1,67 @@
+// VARIABLES
+  
+  $rd-md: #c00;
+  $rd-lt: lighten($rd-md, 10%);
+  $rd-dk: darken($rd-md, 10%);
+
+  $wh-md: #ccc;
+  $wh-lt: lighten($wh-md, 20%);
+  $wh-dk: darken($wh-md, 20%);
+
+  $wh-tr-1: rgba($wh-lt, .1);
+  $wh-tr-2: rgba($wh-lt, .2);
+  $wh-tr-3: rgba($wh-lt, .3);
+  $wh-tr-4: rgba($wh-lt, .4);
+  $wh-tr-5: rgba($wh-lt, .5);
+  $wh-tr-6: rgba($wh-lt, .6);
+  $wh-tr-7: rgba($wh-lt, .7);
+  $wh-tr-8: rgba($wh-lt, .8);
+  $wh-tr-9: rgba($wh-lt, .9);
+
+  $bk-md: #333;
+  $bk-lt: lighten($bk-md, 10%);
+  $bk-dk: darken($bk-md, 10%);
+
+  $bk-tr-1: rgba($bk-lt, .1);
+  $bk-tr-2: rgba($bk-lt, .2);
+  $bk-tr-3: rgba($bk-lt, .3);
+  $bk-tr-4: rgba($bk-lt, .4);
+  $bk-tr-5: rgba($bk-lt, .5);
+  $bk-tr-6: rgba($bk-lt, .6);
+  $bk-tr-7: rgba($bk-lt, .7);
+  $bk-tr-8: rgba($bk-lt, .8);
+  $bk-tr-9: rgba($bk-lt, .9);
+
+  $dk: #515151;
+  $md: #626262;
+  $lt: #ccc;
+  $bl: #00f9fa;
+  $rd: #ed6759;
+
+
+  $fb: #3b5a94;
+  $tw: #00c7f5;
+  $ig: #517fa4;
+  $go: #d8473c;
+  $pi: #cb2027;
+
+  $link: $rd;
+  $link-hover: $bl;
+  $link-active: $rd-dk;
+
+  $bodytext: 'Work Sans', HelveticaNeue, Helvetica, Arial, sans-serif;
+  $mono: 'Source Code Pro', monospace;
+
+
+  $wh-lt: #fff;
+  $wh-tr: rgba($wh-lt, .8);
+  $bk-dk: #000;
+
+  $tr: transparent;
+
+  $button-width: 36px;
+  $button-height: 32px;
+  $bar-thickness: 2px;
+  $button-pad: 3px;
+  $button-bar-space: 6px;
+  $button-transistion-duration: 0.3s;

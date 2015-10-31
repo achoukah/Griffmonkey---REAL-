@@ -1,0 +1,93 @@
+// GLOBAL SEARCH 
+  .search {
+
+    label {
+      display: none;
+    }
+    input {
+      display: inline-block;
+    }
+    input[type=submit] {
+      text-indent: -9999px;
+      background-image: url(../images/search-lupe.png);
+      background-size: 40%;
+      background-repeat: no-repeat;
+      background-position: 50%;
+      width: 50px;
+      display: inline-block;
+      cursor: pointer;
+      float: right;
+
+      &:hover {
+        background-color: $wh-lt;
+      }
+    }
+  }
+
+  form.search-header {
+    position: relative;
+    right: 0;
+    top: 1.7rem;
+    
+    input[type=text] {
+      width: 200px;
+      text-align: right;
+
+      &:focus {
+        width: 250px;
+      }
+    }
+    input[type=submit] {
+      
+      &:hover {
+        width: 3.4em;
+      }
+    }
+  }
+
+// LARGE SEARCH 
+  .search-large {
+    
+
+    input[type=text] {
+      width: calc(100% - 3em);
+      margin: 0 auto;
+
+      &:focus {
+        background-color: $wh-tr-7;
+        
+      }
+    }
+    input[type=submit] {
+      width: 3em;
+    }
+  }
+
+// FOOTER SEARCH
+  .search-footer {
+    display: block;
+    width: 980px;
+    padding: 0 4em 4em;
+    margin: auto;
+    font-size: 130%;
+
+    label {
+      display: block;
+      border-top: thin dashed $wh-tr-1;
+      margin: 1em;
+    }
+    input {
+      display: inline-block;
+    }
+
+    input[type=text] {
+      width: 20vw;
+
+      &:focus {
+        width: 25vw;
+      }
+    }
+    input[type=submit] {
+      float: none;
+    }
+  }
