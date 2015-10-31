@@ -29,21 +29,21 @@
     right: 0;
     top: 1.7rem;
 
-    @media only screen
-    and (min-device-width : 320px)
-    and (max-device-width : 480px) {
-      width: 100%;
-      text-align: right;
-      font-size: 80%;
-      top: 0;
-      right: .5rem;
-    }
+    // @media only screen
+    // and (min-device-width : 320px)
+    // and (max-device-width : 480px) {
+    //   width: 100%;
+    //   text-align: right;
+    //   font-size: 80%;
+    //   top: 0;
+    //   right: .5rem;
+    // }
 
     @media only screen
     and (max-width: 767px) {
       width: 100%;
       text-align: right;
-      font-size: 80%;
+      font-size: 100%;
       top: 0;
       right: .5rem;
     }

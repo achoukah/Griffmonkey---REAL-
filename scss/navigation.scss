@@ -5,14 +5,14 @@
     margin-bottom: 20px;
     position: fixed;
     top: 40px;
-    left: 0px;
+    left: -8px;
     z-index: 9;
     clear: both;
     
     // overflow: hidden;
     margin: 8px;
     padding: 0;
-    width: 36px;
+    width: $button-width;
     height: 44px;
     font-size: 0;
     text-indent: -9999px;
@@ -21,7 +21,9 @@
     cursor: pointer;
     transition: all .3s;
     background: $tr;
-    // border-radius: 4px;
+    background: $bk-tr-4;
+    // border-radius: 0 4px 4px 0;
+    border-radius: 0;
     
     @media only screen
     and (min-device-width : 320px)
@@ -222,9 +224,13 @@
 
   }
   .hamburger.is-active + nav {
-    width: auto;
-    width: 20vw;
+    width: 30vw;
     transition: all .2s ease-in-out;
+
+    @media only screen
+    and (max-width: 767px) {
+      width: 100vw;
+    }
 
     header {
       a {
