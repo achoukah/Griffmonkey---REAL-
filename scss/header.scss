@@ -29,20 +29,20 @@
     left: -2.6em;
     min-width: auto;
 
-    @media only screen
-    and (min-device-width : 320px)
-    and (max-device-width : 480px) {
-      width: 10em;
-      height: 10em;
-      top: .5em;
-      left: .5em;
-    }
+    // @media only screen
+    // and (min-device-width : 320px)
+    // and (max-device-width : 480px) {
+    //   width: 14em;
+    //   height: 10em;
+    //   top: .5em;
+    //   left: .5em;
+    // }
     @media only screen
     and (max-width: 767px) {
-      width: 10em;
-      height: 10em;
+      width: 8em;
+      height: 7em;
       top: .5em;
-      left: .5em;
+      left: 1.5em;
     }
 
     a {

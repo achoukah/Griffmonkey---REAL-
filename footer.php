@@ -19,7 +19,7 @@
         <li>&copy;
 <?php echo date('Y');
 ?> <a href="<?php echo esc_url(home_url('/'));?>">Jamie Griffin</a></li>
-        <li>Theme design/coding: <a href="http://anwarchoukah.com">Anwar Choukah</a></li>
+        <li>Theme by: <a href="http://anwarchoukah.com" target="_blank">Anwar Choukah</a></li>
 
       </ul>
 
