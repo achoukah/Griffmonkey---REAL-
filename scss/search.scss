@@ -96,6 +96,7 @@
     padding: 0 4em 4em;
     margin: auto;
     font-size: 130%;
+    border-top: thin dashed $wh-tr-1;
 
     @media only screen
     and (min-device-width : 320px)
@@ -108,9 +109,8 @@
     }
 
     label {
-      display: block;
-      border-top: thin dashed $wh-tr-1;
-      margin: 1em;
+      display: none;
+      
 
       @media only screen
       and (min-device-width : 320px)

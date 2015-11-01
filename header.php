@@ -65,8 +65,11 @@ m.parentNode.insertBefore(a,m)
   <div class="menu-main-menu-container">
     <ul class="nav">
       <li <?php if (is_home()) {?> class="current-cat"<?php }?>><a href="<?php bloginfo('home');?>">Home</a></li>
-      <!-- <li class="menu-item"><a href="#">Item 1</a></li> -->
+
 <?php wp_list_categories('orderby=name&use_desc_for_title=1&title_li=&number=5');?>
+<!-- TEST MENU FROM MENU BUILDER -->
+
+<!-- <?php wp_nav_menu(array('theme_location' => 'Primary'));?> -->
 
 
     </ul>
