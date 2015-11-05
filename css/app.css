@@ -153,6 +153,9 @@ code {
     .main-header {
       padding: 0;
       width: 100vw; } }
+  @media only screen and (min-width: 768px) and (max-width: 1600px) {
+    .main-header {
+      width: calc(100vw - 100px); } }
   @media only screen and (min-width: 1600px) {
     .main-header {
       width: calc(100vw - 100px); } }
@@ -463,6 +466,9 @@ article {
       margin: 0;
       padding: 0 0.5em;
       z-index: 2; } }
+  @media only screen and (min-width: 768px) and (max-width: 1600px) {
+    article {
+      width: calc(100vw - 100px); } }
   @media only screen and (min-width: 1600px) {
     article {
       width: 1480px; } }
@@ -479,6 +485,10 @@ section {
   @media only screen and (max-width: 767px) {
     section {
       width: 100%; } }
+  @media only screen and (min-width: 768px) and (max-width: 1600px) {
+    section {
+      width: calc(100vw - 320px);
+      margin-right: 20px; } }
   @media only screen and (min-width: 1600px) {
     section {
       width: 1200px;
@@ -857,15 +867,4 @@ div.wpcf7-validation-errors,
   font-size: 90%;
   line-height: 1.5;
   background: #c00; }
-
-@media only screen and (min-width: 768px) and (max-width: 1600px) {
-  article {
-    width: calc(100vw - 100px); }
-  section {
-    width: calc(100vw - 320px);
-    margin-right: 20px; }
-  .main-header {
-    width: calc(100vw - 100px); }
-  .main-menu {
-    padding: 0 0 10px 160px; } }
 /*# sourceMappingURL=app.css.map */
