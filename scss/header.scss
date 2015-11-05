@@ -20,6 +20,11 @@
     padding: 0;
     width: 100vw;
   }
+  // Large screens
+  @media only screen
+  and (min-width : 1600px) {
+    width: calc(100vw - 100px);
+  }
 
   .logo {
     width: 14em;
@@ -76,7 +81,7 @@
     min-width: auto;
     flex-grow: 2;
     z-index: 8;
-    
+
     // @media only screen
     // and (min-device-width : 320px)
     // and (max-device-width : 480px) {

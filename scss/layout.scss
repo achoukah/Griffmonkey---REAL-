@@ -23,6 +23,11 @@
       padding: 0 .5em;
       z-index: 2;
     }
+    // Large screens
+    @media only screen
+    and (min-width : 1600px) {
+      width: 1480px;
+    }
   }
   section {
     background: $wh-tr-1;
@@ -39,6 +44,13 @@
     @media only screen
     and (max-width: 767px) {
       width: 100%;
+    }
+    // Large screens
+    @media only screen
+    and (min-width : 1600px) {
+      width: 1200px;
+      padding: 3em;
+      margin-right: 20px;
     }
 
 
@@ -68,13 +80,13 @@
       }
       .wp-caption {
         width: 100% !important;
-        
+
         img {
           width: 100%;
           height: auto;
         }
       }
-      
+
       .embed-youtube {
         position: relative;
         width: 100%;
@@ -91,6 +103,12 @@
       }
       iframe {
         width: 100%;
+
+        // Large screens
+        @media only screen
+        and (min-width : 1600px) {
+          height: 640px;
+        }
       }
       p {
         line-height: 1.4;
@@ -110,13 +128,13 @@
       }
     }
   }
-  
+
   .article-meta {
     font-size: 80%;
-    
+
     .post-categories.post-categories {
       display: inline-block;
-      
+
       &:before {
         content: 'Categories: '
       }

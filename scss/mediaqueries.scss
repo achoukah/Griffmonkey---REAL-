@@ -11,28 +11,28 @@
   @media only screen
   and (min-width : 1600px) {
     // @import "mq-large";
-    @import "mq-medium-large";
+    // @import "mq-medium-large";
   }
 
 // iPhone (portrait and landscape)
-  @media only screen 
-  and (min-device-width : 320px) 
+  @media only screen
+  and (min-device-width : 320px)
   and (max-device-width : 480px) {
 
   }
 
 // iPhone (landscape)
-  @media only screen 
-  and (min-device-width : 320px) 
-  and (max-device-width : 480px) 
+  @media only screen
+  and (min-device-width : 320px)
+  and (max-device-width : 480px)
   and (orientation : landscape) {
 
   }
 
 // iPhone (portrait)
-  @media only screen 
-  and (min-device-width : 320px) 
-  and (max-device-width : 480px) 
+  @media only screen
+  and (min-device-width : 320px)
+  and (max-device-width : 480px)
   and (orientation : portrait) {
 
   }
@@ -41,21 +41,21 @@
   @media only screen
   and (min-device-width : 768px)
   and (max-device-width : 1024px) {
-    
+
   }
 
 // iPads (landscape)
-  @media only screen 
-  and (min-device-width : 768px) 
-  and (max-device-width : 1024px) 
-  and (orientation : landscape) { 
+  @media only screen
+  and (min-device-width : 768px)
+  and (max-device-width : 1024px)
+  and (orientation : landscape) {
 
   }
 
 // iPads (portrait)
-  @media only screen 
-  and (min-device-width : 768px) 
-  and (max-device-width : 1024px) 
+  @media only screen
+  and (min-device-width : 768px)
+  and (max-device-width : 1024px)
   and (orientation : portrait) {
 
   }
