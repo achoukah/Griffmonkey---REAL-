@@ -1,6 +1,6 @@
-// GLOBAL SEARCH 
+// GLOBAL SEARCH
   .search {
-   
+
     label {
       display: none;
     }
@@ -47,9 +47,14 @@
       top: 0;
       right: .5rem;
     }
+    // Large screens
+    @media only screen
+    and (min-width : 1600px) {
+      margin-right: 100px;
+    }
 
 
-    
+
     input[type=text] {
       width: 200px;
       text-align: right;
@@ -64,16 +69,16 @@
       }
     }
     input[type=submit] {
-      
+
       &:hover {
         width: 3.4em;
       }
     }
   }
 
-// LARGE SEARCH 
+// LARGE SEARCH
   .search-large {
-    
+
 
     input[type=text] {
       width: calc(100% - 3em);
@@ -81,7 +86,7 @@
 
       &:focus {
         background-color: $wh-tr-7;
-        
+
       }
     }
     input[type=submit] {
@@ -110,7 +115,7 @@
 
     label {
       display: none;
-      
+
 
       @media only screen
       and (min-device-width : 320px)

@@ -158,7 +158,8 @@ code {
       width: calc(100vw - 100px); } }
   @media only screen and (min-width: 1600px) {
     .main-header {
-      width: calc(100vw - 100px); } }
+      width: 1540px;
+      height: 120px; } }
   .main-header .logo {
     width: 14em;
     height: 14em;
@@ -468,10 +469,11 @@ article {
       z-index: 2; } }
   @media only screen and (min-width: 768px) and (max-width: 1600px) {
     article {
-      width: calc(100vw - 100px); } }
+      width: calc(100vw - 100px);
+      padding-left: 110px; } }
   @media only screen and (min-width: 1600px) {
     article {
-      width: 1480px; } }
+      width: 1340px; } }
 
 section {
   background: rgba(255, 255, 255, 0.1);
@@ -645,6 +647,9 @@ form.search-header {
       font-size: 100%;
       top: 0;
       right: .5rem; } }
+  @media only screen and (min-width: 1600px) {
+    form.search-header {
+      margin-right: 100px; } }
   form.search-header input[type=text] {
     width: 200px;
     text-align: right; }
